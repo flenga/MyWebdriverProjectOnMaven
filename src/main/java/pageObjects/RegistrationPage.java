@@ -9,7 +9,6 @@ import projectUtilities.CommonFunction;
 
 public class RegistrationPage extends BaseFunction
 {
-	//CommonFunction cf = new CommonFunction();
 	public static WebDriver driver;
 	public String ValuToreport;
 	@FindBy(how = How.NAME, using = "id_gender")

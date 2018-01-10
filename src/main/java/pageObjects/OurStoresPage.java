@@ -8,7 +8,6 @@ import projectUtilities.CommonFunction;
 
 public class OurStoresPage extends BaseFunction
 {
-	//CommonFunction cf = new CommonFunction();
 	private String StoreImage;
 	private String StoreDirectionsMiami;
 	private String ClosePopup;

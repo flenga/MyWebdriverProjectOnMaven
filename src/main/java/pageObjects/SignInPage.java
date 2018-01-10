@@ -10,7 +10,6 @@ import projectUtilities.CommonFunction;
 
 public class SignInPage  extends BaseFunction
 {
-	//CommonFunction cf = new CommonFunction();
 	public String ValuToreport;
 	public WebDriver driver;
 	

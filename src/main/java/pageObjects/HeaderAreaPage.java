@@ -7,8 +7,6 @@ import projectUtilities.CommonFunction;
 
 public class HeaderAreaPage extends BaseFunction
 {
-//CommonFunction cf = new CommonFunction();
-	
 	public String ValuToreport;
 	@FindBy(how = How.LINK_TEXT, using = "Sign in")
 	public WebElement SignInLink;
