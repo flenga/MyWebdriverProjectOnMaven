@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Environment>
+    <BrowserType>Chrome</BrowserType>
+    <FFDriverPath>ExtrnalFiles/Drivers/FF/geckodriver.exe</FFDriverPath>
+    <IEDriverPath>ExtrnalFiles/Drivers/IE/IEDriverServer.exe</IEDriverPath>
+    <ChromeDriverPath>ExtrnalFiles/Drivers/Chrome/chromedriver.exe</ChromeDriverPath>
+    <URL>http://automationpractice.com/index.php</URL>
+    
+  <!-- Images to compare-path -->
+ <ImagePath>ExtrnalFiles//Sikuli_Images//</ImagePath> 
+  
+ <!-- report-->
+<ScreenshotsReportFilePath>/Reports/</ScreenshotsReportFilePath>
+<ReportFilePath>ExtrnalFiles//Reports//</ReportFilePath>
+<Reporfilename>_prestashop-E-Commerce-Run.html</Reporfilename>
+
+<!-- Connection to Excel -->
+<ExcelFilePath>ExtrnalFiles/Excels/</ExcelFilePath>
+</Environment>
