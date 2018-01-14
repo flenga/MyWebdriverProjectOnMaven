@@ -22,8 +22,7 @@ public class HeaderAreaPage extends BaseFunction
 	
 	@FindBy(how = How.ID, using = "header_logo")
 	public WebElement SiteLogo;
-	
-	
+		
 	public  HeaderAreaPage () 
 	{
 		this.driver = driver;

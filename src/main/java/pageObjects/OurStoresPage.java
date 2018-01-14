@@ -5,7 +5,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import projectUtilities.BaseFunction;
 import projectUtilities.CommonFunction;
-
 public class OurStoresPage extends BaseFunction
 {
 	private String StoreImage;

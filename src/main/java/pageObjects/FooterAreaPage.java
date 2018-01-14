@@ -17,8 +17,7 @@ public class FooterAreaPage extends BaseFunction
 	{
 		FooterAreaPage.driver = driver;
 	}
-	
-	public void ClickOnStoreLink() throws Exception 
+		public void ClickOnStoreLink() throws Exception 
 	{
 		ValuToreport=StoreLink.getText();
 		CommonFunction.ClickOnElement(StoreLink,ValuToreport );

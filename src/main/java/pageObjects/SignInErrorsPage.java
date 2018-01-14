@@ -8,7 +8,6 @@ import projectUtilities.BaseFunction;
 
 public class SignInErrorsPage extends BaseFunction
 {
-	
 	public WebDriver driver;
 	
 	@FindBy(how = How.XPATH, using = "//*[@id='center_column']/div[1]")

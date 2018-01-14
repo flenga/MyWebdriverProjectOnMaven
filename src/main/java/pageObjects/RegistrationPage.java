@@ -41,7 +41,6 @@ public class RegistrationPage extends BaseFunction
 	//Error message
 	@FindBy(how = How.XPATH,using = "//*[@id='center_column']/div")
 	public WebElement ErrorMessage; 
-	
 	public RegistrationPage(WebDriver driver) 
 	{
 		RegistrationPage.driver = driver;

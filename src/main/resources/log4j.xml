@@ -10,7 +10,6 @@
             <param name="ConversionPattern" value="%d{ISO8601} %-5p [%c{1}] - %m%n" />
         </layout>
     </appender>
-
     <appender name="default.file" class="org.apache.log4j.FileAppender">
         <param name="file" value="logfile.log" />
         <param name="append" value="true" />
@@ -19,7 +18,6 @@
             <param name="ConversionPattern" value="%d{ISO8601} %-5p [%c{1}] - %m%n" />
         </layout>
     </appender>
-
     <appender name="another.file" class="org.apache.log4j.FileAppender">
         <param name="file" value="/logs/anotherlogfile.log" />
         <param name="append" value="false" />
@@ -28,12 +26,10 @@
             <param name="ConversionPattern" value="%d{ISO8601} %-5p [%c{1}] - %m%n" />
         </layout>
     </appender>
-
     <logger name="com.yourcompany.SomeClass" additivity="false">
         <level value="debug" />
         <appender-ref ref="another.file" />
     </logger>
-
     <root>
         <priority value="info" />
         <appender-ref ref="default.console" />

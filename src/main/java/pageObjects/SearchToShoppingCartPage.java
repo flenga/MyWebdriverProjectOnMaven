@@ -5,7 +5,6 @@ import org.openqa.selenium.support.How;
 import com.relevantcodes.extentreports.LogStatus;
 import projectUtilities.BaseFunction;
 import projectUtilities.CommonFunction;
-
 public class SearchToShoppingCartPage extends BaseFunction
 {
 	private String ValueSendToreport;

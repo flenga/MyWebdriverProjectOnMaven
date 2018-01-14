@@ -75,8 +75,6 @@ public class ContactUsPage  extends BaseFunction
 				CommonFunction.ClickOnElement(fileUploadButton,ValuToreport);
 				Runtime.getRuntime().exec(CommonFunction.wrkbook.getSheet(0).getCell(2,i).getContents()+"FileUploadChrome.exe");//upload File using autoit!
 				CommonFunction.waitToTextToChange(Filename, "Picture017.jpg");
-				//String FileNmeField=Filename.getText();
-				//CommonFunction.asserNotequal("No file selected", FileNmeField);//assertion
 				ValuToreport = message.getAttribute("name");
 				CommonFunction.SendKeyAction(message,CommonFunction.wrkbook.getSheet(0).getCell(3,i).getContents(),ValuToreport);
 				ValuToreport = SubmitMessage.getAttribute("name");

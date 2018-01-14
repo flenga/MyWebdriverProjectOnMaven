@@ -55,7 +55,7 @@ public class CommonFunction extends BaseFunction
 		}
 	}	
 
-	public static String SeperateString(String Description) 
+	public static String SplitString(String Description) 
 	{
 		String TheNewDescription=Description.replaceAll("([a-z]+)([A-Z])", "$1 $2");
 		return TheNewDescription;

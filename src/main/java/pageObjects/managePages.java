@@ -1,5 +1,4 @@
 package pageObjects;
-
 import org.openqa.selenium.support.PageFactory;
 import projectUtilities.BaseFunction;
 public class managePages extends BaseFunction
