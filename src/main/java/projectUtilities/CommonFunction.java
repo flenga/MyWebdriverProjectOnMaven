@@ -1,4 +1,4 @@
-package projectUtilities;
+ package projectUtilities;
 import java.io.File;
 import java.io.IOException;
 import java.util.Hashtable;
@@ -58,7 +58,19 @@ public class CommonFunction extends BaseFunction
 	public static String SplitString(String Description) 
 	{
 		String TheNewDescription=Description.replaceAll("([a-z]+)([A-Z])", "$1 $2");
-		return TheNewDescription;
+		return TheNewDescription.substring(0, 1).toUpperCase()+TheNewDescription.substring(1).toLowerCase();
+		
+		/* https://stackoverflow.com/questions/1892765/how-to-capitalize-the-first-character-of-each-word-in-a-string
+		 * This might be useful if you need to capitalize titles. It capitalizes each substring delimited by " ", except for specified strings such as "a" or "the". I haven't ran it yet because it's late, should be fine though. Uses Apache Commons StringUtils.join() at one point. You can substitute it with a simple loop if you wish.
+		 * 
+		 * String []TheNewDescriptionUpperCase=TheNewDescription.split(" ");
+			for (String w :TheNewDescriptionUpperCase)
+		{
+			w=w.toLowerCase().replace(w.substring(1), w.substring(1).toUpperCase());
+			TheNewDescription+=w;
+		}
+		 * 
+		 */
 	}
 	//File-Up loader function to use to upload computers file. 
 	public static void setClipboardData(String string) throws Exception 

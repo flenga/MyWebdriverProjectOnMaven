@@ -9,13 +9,13 @@ import projectUtilities.BaseFunction;
 public class ProjectRunTests extends BaseFunction
 {
 	@Test
-	public void test01_StoreLocator() throws Exception
+	public void test01_StoreLocatorClickOnStoreToSeeStoreDetails() throws Exception
 	{
 		Osf.OpenOneOfTheStoresLocationCheckingAddressAndDialog();
 	}
 
 	@Test
-	public void test02_SignIn() throws Exception 
+	public void test02_SignInToAccount() throws Exception 
 	{
 	 	Hef.ClickOnSignIn();
 		fsf.LoginToPage();
