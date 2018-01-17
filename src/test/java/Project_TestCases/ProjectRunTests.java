@@ -8,19 +8,32 @@ import projectUtilities.BaseFunction;
 
 public class ProjectRunTests extends BaseFunction
 {
+	/*
+	 * This Test case check the Our stores page, by using Sikuli it will verify 
+	 * that clicking on a store location will open the correct location dialog.
+	*/
 	@Test
 	public void test01_StoreLocatorClickOnStoreToSeeStoreDetails() throws Exception
 	{
 		Osf.OpenOneOfTheStoresLocationCheckingAddressAndDialog();
 	}
 
+	/*
+	 * This Test case check the Sign in page. entering different credentials 
+	 * and verify that correct message appear according to credentials. 
+	 * This test case and the next one are using an Excel file with Data.
+	 */
 	@Test
 	public void test02_SignInToAccount() throws Exception 
 	{
 	 	Hef.ClickOnSignIn();
 		fsf.LoginToPage();
 	}
-
+	
+	/*
+	 * This Test case check the Contact us page. 
+	 * Verify and check file and sending the Contact us form with different content.
+	 */
 	@Test
 	public void test03_SendContactUsForm() throws Exception 
 	{
